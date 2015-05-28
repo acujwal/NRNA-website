@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" >
+<head>
+<title>{{ p.name }}</title>
+</head>
+<body>
+<table width=100%>
+<tr bgcolor="aabbcc"><td colspan="3">
+<font size="12" color="white">Personal Information</font>
+</td></tr>
+<tr valign="top"><td width=30% bgcolor="aaaaaa"><font color="white" size="5">
+    <li>Name: {{p.name}}</li>
+    <li>Birthday: {{ p.birthday }}</li>
+    <li>Gender: {{ p.gender }}</li>
+    <li>Desc: {{ p.desc }} </li>
+</font></td>
+<td width=40% bgcolor="aa99aa"><font color="white" size="4">
+    <p align="center">Comments</p>
+    <p align="center">None.
+</font></td>
+<td width=30%>
+    <h3>Contact Info</h3>
+    <li>Email: {{ p.email }}</li>
+    <li>Website: {{ p.favoriteURL }}</li>
+</td></tr>
+</table>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <img src="./img/nrna_logo.png" height= "18%" width="18%">
+                    <h4><strong>Non-Resident Nepali Association Czech Republic</strong>
+                    </h4>
+                    <p>Lipenská 1971/8<br>České Budějovice, 370 01<br>Registrační číslo:  01987704 </p>
+                    <ul class="list-unstyled">
+                    	<li><i class="fa fa-phone fa-fw"></i> (+420) 773 986 965</li>
+                        <li><i class="fa fa-phone fa-fw"></i> (+420) 775 129 603</li>
+                        <li><i class="fa fa-phone fa-fw"></i> (+420) 777 313 474</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">info@nrna.cz</a>
+                        <li><a href="http://nrna.org.np/article-czech_republic">Non-Resident Nepali Association Czech Republic</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/nrnaczechrepublic"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; NRNA Czech Republic 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
